@@ -99,6 +99,7 @@ img {
 /* LESSONS SECTION FOR SMARTPHONE */
 
 @media screen and (max-width: 480px ) {
+
     .container{
         max-width: 480px;
         margin: 0 auto;
@@ -138,6 +139,15 @@ img {
 .steps .col img {
     height: 200px;
     margin-bottom: 1rem;
+}
+
+/* STEPS SECTION FOR SMARTPHONE */
+
+@media screen and (max-width: 480px) {
+    
+    .steps .col {
+        width: 100%;
+    }
 }
 
 /* WHY US SECTION */
