@@ -87,7 +87,7 @@ img {
 
 /* LESSONS SECTION FOR TABLET */
 
-@media screen and (max-whidth: 768px) {
+@media screen and (max-width: 768px) {
 
     .container {
         max-width: 768px;
@@ -95,6 +95,28 @@ img {
         padding: 0 20px;
     }
 }
+
+/* LESSONS SECTION FOR SMARTPHONE */
+
+@media screen and (max-width: 480px ) {
+    .container{
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+}
+
+
 
 /* STEPS SECTION */
 .steps {
